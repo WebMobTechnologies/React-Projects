@@ -1,12 +1,18 @@
 import React from 'react';
+
+import 'react-native-gesture-handler';
+import {NavigationContainer} from '@react-navigation/native';
+
 import {StatusBar} from 'react-native';
-import Home from './src/Home';
+import MainRoute from './src/router';
 
 const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
-      <Home />
+      <StatusBar backgroundColor={'grey'} barStyle="dark-content" />
+      <NavigationContainer>
+        <MainRoute />
+      </NavigationContainer>
     </>
   );
 };
