@@ -10,8 +10,21 @@ body {
 
 .ant-card-meta-title{
   color: #fff !important;
+	font-size:20px;
+  
 }
 
 .ant-typography-ellipsis-multiple-line{
   color: #fff !important;
+}
+.ant-modal-body{
+  background-color: rgb(41, 40, 71) !important;
+  color: #fff !important;
+  
+}
+.ant-divider-inner-text,.ant-modal-close-icon{
+	color:#fff !important;
+}
+.ant-divider-inner-text{
+	color:aliceblue !important;
 }

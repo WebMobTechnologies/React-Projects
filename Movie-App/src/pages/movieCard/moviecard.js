@@ -26,6 +26,7 @@ class movie extends React.Component {
           Open Modal
         </Button>
         <Modal
+          style={{ backgroundColor: '#1E1F33'}}
           onCancel={this.handleCancel}
           visible={this.state.visible}
           footer={null}
@@ -46,7 +47,7 @@ class movie extends React.Component {
                 <div>
                   <div className={Styles.movieTitle}>Action / Adventure / Comedy</div>
                   <Rate defaultValue={4} allowHalf count={10} disabled/>
-                  <div>
+                  <div className={Styles.movieDescription}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

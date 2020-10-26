@@ -99,6 +99,7 @@ export class index extends Component {
               </Col>
             )}
             <Row style={{ marginTop: '30px' }} gutter={[0, 48]}>
+
               {movieList.length > 0 &&
                 movieList.map(movieItem => {
                   const { poster_path, title, vote_average, overview } = movieItem;
