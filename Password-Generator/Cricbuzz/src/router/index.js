@@ -18,6 +18,15 @@ function MainRoute() {
         }}
       />
       <Stack.Screen name={Routes.MatchDetails} component={MatchDetails} />
+
+      <Stack.Screen
+        name={Routes.Home}
+        component={Home}
+        options={{
+          headerShown: true, // change this to `false`
+        }}
+      />
+      <Stack.Screen name={Routes.MatchDetails} component={MatchDetails} />
     </Stack.Navigator>
   );
 }
