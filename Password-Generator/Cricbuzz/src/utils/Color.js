@@ -12,6 +12,18 @@ export const Color = {
 
     CALENDAR_DOT:'#3E79DB',
 
+    WHITE: '#FFFFFF',
+    BLACK: '#000000',
+    TRANSPARENT: 'transparent',
+    LIGHT_WHITE: '#F0F2F5',
+    LIGHT_GRAY: '#D9D9D9',
+    DARK_LIGHT_BLACK: 'rgba(0, 0, 0, 0.5)',
+    DARK_LIGHT_WHITE: 'rgba(255,255,255,0.5)',
+
+    LIGHT_BACKGROUND: '#F5F5F5',
+
+    CALENDAR_DOT:'#3E79DB',
+
     //STATUSES color
     NEW_LEAD: '#F74A25',
     SOLD: '#00cc47',
@@ -25,19 +37,31 @@ export const Color = {
 
 
 
+    //STATUSES color
+    NEW_LEAD: '#F74A25',
+    SOLD: '#00cc47',
+    SHOWING: '#ffb900',
+    CONTACTED: '#3A6BF8',
+    DEAD: '#BDBCBC',
+    ATTEMPTED_CONTACT: '#F79425',
+    HAS_REALTOR: '#3ACDF8',
+    ARCHIVE: '#BDBCBC',
 
 
-    // archive: '#BDBCBC',
-    // archiveTag: '#00a2ae',
-    // dead: '#BDBCBC',
-    // new: '#F74A25',
-    // attemptedContact: '#F79425',
-    // contacted: '#3A6BF8',
-    // hasARealtor: '#3ACDF8',
-    // showing: '#ffb900',
-    // // inContract: '#77f1ca',
-    // inContract: '#68D3B1',
-    // sold: '#00cc47',
+
+
+
+    archive: '#BDBCBC',
+    archiveTag: '#00a2ae',
+    dead: '#BDBCBC',
+    new: '#F74A25',
+    attemptedContact: '#F79425',
+    contacted: '#3A6BF8',
+    hasARealtor: '#3ACDF8',
+    showing: '#ffb900',
+    // inContract: '#77f1ca',
+    inContract: '#68D3B1',
+    sold: '#00cc47',
 
 
 
