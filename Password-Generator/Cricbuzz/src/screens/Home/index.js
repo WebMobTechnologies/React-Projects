@@ -87,21 +87,7 @@ const Home = ({navigation}) => {
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
       />
-      <FlatList
-        data={matchesList}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.id}
-      />
-      <FlatList
-        data={matchesList}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.id}
-      />
-      <FlatList
-        data={matchesList}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.id}
-      />
+      
     </View>
   );
 };
