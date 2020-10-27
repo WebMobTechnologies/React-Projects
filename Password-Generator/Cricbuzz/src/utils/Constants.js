@@ -24,6 +24,25 @@ const Permissions = {
   //Android Permission
   READ_EXTERNAL_STORAGE: 'READ_EXTERNAL_STORAGE',
   WRITE_EXTERNAL_STORAGE: 'WRITE_EXTERNAL_STORAGE',
+
+  LOCATION: 'location',
+  MICROPHONE: 'microphone',
+  CONTACTS: 'contacts',
+  EVENTS: 'event',
+  STORAGE: 'storage',
+  PHONE_CALL: 'callPhone',
+  READ_SMS: 'readSms',
+  RECEIVE_SMS: 'receiveSms',
+
+  //support only IOS
+  MOTION: 'motion',
+  MEDIA_LIBRARY: 'mediaLibrary',
+  SPEECH_RECOGNITAION: 'speechRecognition',
+  PUSH_NOTIFICATION: 'notification',
+
+  //Android Permission
+  READ_EXTERNAL_STORAGE: 'READ_EXTERNAL_STORAGE',
+  WRITE_EXTERNAL_STORAGE: 'WRITE_EXTERNAL_STORAGE',
 };
 
 const EmailType = {
@@ -48,6 +67,22 @@ const ResponseCode = {
   BAD_GATEWAY: 502,
 };
 
+const ErrprCode = {
+  OK: 200,
+  CREATED: 201,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  METHOD_NOT_ALLOWED: 405,
+  UNPROCESSABLE_REQUEST: 422,
+  INTERNAL_SERVER_ERROR: 500,
+  TOKEN_INVALID: 503,
+  NO_INTERNET: 522,
+  BAD_GATEWAY: 502,
+};
+
+
 const MessageType = {
   SUCCESS: 1,
   FAILED: 2,
@@ -62,10 +97,10 @@ const SORT_ORDER = {
 const APIConfig = {
   BASE_URL: 'https://app.hqagentpro.com/graphql',
 
-  //dev: https://kcrmapi.webmobtech.biz/graphql,
-  //LIVE: https://app.hqagentpro.com/graphql,
-  //local: http://192.168.1.28:8000/graphql
-  //http://192.168.1.93:8000/graphql
+  dev: https://kcrmapi.webmobtech.biz/graphql,
+  LIVE: https://app.hqagentpro.com/graphql,
+  local: http://192.168.1.28:8000/graphql
+  http://192.168.1.93:8000/graphql
 };
 
 const GoogleSignIn = {
