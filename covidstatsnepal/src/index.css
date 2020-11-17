@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::selection {
+  background-color: #212935;
+  color: #a3a3a3;
+}
+
+/* .code {
+  color: whitesmoke;
+}
+
+.code p:nth-child(1) {
+  color: rgb(252, 110, 157);
+}
+.code p:nth-child(2) {
+  color: rgb(170, 170, 175);
+}
+.code p:nth-child(3) {
+  color: rgb(236, 180, 106);
+} */

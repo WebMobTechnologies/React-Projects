@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+body {
+  background-color: #262e42;
+  font-family: "Jost", sans-serif;
+  padding-top: 100px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 80px;
+}
+.wrapper {
+  display: block;
+}
+.choice {
+  color: #141b2b;
+}
+.App {
+  text-align: center;
+}
+
+.header-wrapper {
+  padding: 1.5rem 0rem;
+  background-color: #0e1118;
+  color: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+@media screen and (max-width: 600px) {
+  .header-wrapper {
+    padding: 1rem 0rem;
+  }
+  body {
+    padding-top: 84px;
+  }
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+.navButton {
+  padding: 1rem 1.5rem;
+}
+.main-wrapper p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.main-wrapper p span {
+  font-weight: 300;
+}
+.main-wrapper p small {
+  font-size: 0.75rem;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+.menu:hover {
+  background-color: #141b2b;
+}
+
+.menu div {
+  background: #f4f4f4;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.navLinks {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2635;
+  color: rgb(240, 240, 240);
+  padding: 10px;
+  min-width: 160px;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+@media screen and (max-width: 680px) {
+  .main-wrapper p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navLinks {
+    left: -100px;
+  }
+  body {
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    padding-bottom: 60px;
+  }
+}
+.navLinks li {
+  display: block;
+  width: 100%;
+}
+
+.navLinks li .nav-link {
+  padding: 0.5rem;
+  display: block;
+  text-align: left;
+  border-radius: 3px;
+}
+.navLinks li .nav-link:hover {
+  background-color: #0e1118;
+}
+
+.colortest {
+  color: #314166;
+}
+
+.inputField {
+  padding: 0.5rem;
+  border: none;
+  background-color: #314166;
+  color: #c7bebe;
+  font-size: 1.5rem;
+}
